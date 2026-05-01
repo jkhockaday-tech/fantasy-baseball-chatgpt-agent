@@ -1,5 +1,5 @@
 const LEAGUE_ID = 169608;
-const BASE_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons";
+const BASE_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons";
 
 async function fetchESPNData(season, view) {
   const url = `${BASE_URL}/${season}/segments/0/leagues/${LEAGUE_ID}?view=${view}`;
